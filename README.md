@@ -23,9 +23,9 @@ Since this repo has both the frontend and backend bits of the app, these are the
 1. Start the backend application, from the root directory, This auto generates all the models and tables needed.
    >   ./gradlew bootRun
 
-2. Navigate to the `weird-salad-frontend` directory  and run npm start
-   >   cd weird-salad-frontend  
-   npm start
+2. Download the frontend project to the `weird-salad-frontend` directory  and run npm start
+   https://github.com/DareJava/weirdsalad-frontend/
+   then run `npm start`
 3. Because you start from scratch, i assume we will need some way to create a new Restaurant location, so i created a page with form for you to create by name and address. Go to http://localhost:3000/
 
    [Start page](https://drive.google.com/file/d/1aYAkT6kgSFHuDrxL-CN95Y7gouEygdCa/view?usp=sharing)  
