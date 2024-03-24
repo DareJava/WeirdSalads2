@@ -20,12 +20,17 @@ I prioritized these in the above order, if we are going by the MVP ideas, we do 
 ### How to get the app started to test:
 Since this repo has both the frontend and backend bits of the app, these are the steps to start the application and test.
 
-1. Start the backend application, from the root directory, This auto generates all the models and tables needed.
+1. Start the backend application from the root directory, This auto generates all the models and tables needed.
+   Please make sure you have the Java JDK installed on your machine, OpenJdk 17 can be installed via homebrew.
    >   ./gradlew bootRun
 
-2. Download the frontend project to the `weird-salad-frontend` directory  and run npm start
+2. Download the frontend project to the `weird-salad-frontend` directory
    https://github.com/DareJava/weirdsalad-frontend/
-   then run `npm start`
+   Make sure you have node installed on your machine
+   then run:
+    - `npm install` to install all libs.
+    - `npm start` to start service.
+   
 3. Because you start from scratch, i assume we will need some way to create a new Restaurant location, so i created a page with form for you to create by name and address. Go to http://localhost:3000/
 
    [Start page](https://drive.google.com/file/d/1aYAkT6kgSFHuDrxL-CN95Y7gouEygdCa/view?usp=sharing)  
